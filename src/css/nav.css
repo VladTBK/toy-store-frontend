@@ -1,0 +1,61 @@
+.navbar {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	z-index: 9999;
+	justify-content: flex-end;
+}
+.no-display {
+	display: none;
+}
+.content {
+	margin-top: 60px; /* Adjust this value to create space below the navbar */
+}
+.navbar-cart {
+	font-size: 34px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-top: 60px;
+}
+.cart-total {
+	font-size: 34px;
+	margin-right: 20px; /* Adjust the value to set the desired offset */
+	margin-top: 60px; /* Adjust the value to set the desired offset */
+}
+.cart-item {
+	align-items: center;
+	margin-bottom: 10px; /* Adjust the value to set the desired vertical spacing between list items */
+}
+
+.product-image {
+	width: 100px; /* Adjust the width of the product image */
+	margin-right: 10px; /* Adjust the value to set the desired spacing between the image and details */
+}
+
+.product-image img {
+	width: 100%;
+	height: auto;
+}
+
+.product-details {
+	flex-grow: 1;
+}
+
+.product-name {
+	font-size: 16px;
+	margin-bottom: 5px; /* Adjust the value to set the desired vertical spacing */
+}
+
+.product-price {
+	font-size: 14px;
+	color: #888; /* Adjust the color to your preference */
+}
+.cart-container {
+	display: none;
+	flex-direction: column;
+	font-size: 34px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-top: 60px;
+}

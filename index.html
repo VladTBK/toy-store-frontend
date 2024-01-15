@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login/Register Page</title>
+		<link rel="stylesheet" type="text/css" href="/src/css/logreg.css" />
+		<script src="/js/logreg.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper fadeInDown">
+			<div id="formContent">
+				<!-- Tabs Titles -->
+				<h2 class="active cursor sign-in">Autentificare</h2>
+				<h2 class="inactive underlineHover cursor sign-up">Cont nou</h2>
+
+				<!-- Icon -->
+				<div class="fadeIn first icon">
+					<img
+						src="/src/imgs/vroomvrom.jpeg"
+						id="icon"
+						alt="User Icon"
+					/>
+				</div>
+
+				<!-- Login Form -->
+				<form class="form-switch">
+					<div class="username fadeIn second">
+						<input
+							type="text"
+							id="numecomplet"
+							name="numecomplet"
+							placeholder="Nume Complet"
+							required
+						/>
+					</div>
+					<div class="pass fadeIn third">
+						<input
+							type="text"
+							id="password"
+							name="password"
+							placeholder="Parolă"
+							required
+						/>
+					</div>
+					<span id="wrong_pass_alert"></span>
+					<div class="fadeIn fourth">
+						<button
+							class="cursor submit submit-button"
+							type="submit"
+						>
+							Log In
+						</button>
+					</div>
+				</form>
+				<!-- Remind Passowrd
+				<div id="formFooter">
+					<a class="underlineHover" href="#">Forgot Password?</a>
+				</div> -->
+			</div>
+		</div>
+	</body>
+</html>
